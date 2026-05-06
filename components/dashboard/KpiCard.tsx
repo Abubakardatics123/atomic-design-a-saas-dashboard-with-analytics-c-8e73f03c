@@ -1,7 +1,7 @@
 "use client";
 
 import { cn, formatCurrency, formatNumber } from "@/lib/utils";
-import { ArrowUp, ArrowDown } from "lucide-react";
+import { ArrowUp, ArrowDown } from 'lucide-react';
 import type { LucideIcon } from "lucide-react";
 
 interface KpiCardProps {

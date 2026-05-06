@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bell, Search, Menu, X, Check } from "lucide-react";
+import { Bell, Search, Menu, X, Check } from 'lucide-react';
 import { cn } from "@/lib/utils";
 
 const notifications = [
