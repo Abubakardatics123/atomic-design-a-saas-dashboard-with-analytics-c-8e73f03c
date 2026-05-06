@@ -55,7 +55,7 @@ export default function LandingPage() {
           </nav>
           <div className="flex items-center gap-3">
             <Link href="/dashboard" className="hidden sm:inline-flex text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors">Sign in</Link>
-            <Link href="/dashboard" className="inline-flex items-center gap-1.5 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded-lg transition-colors shadow-sm">
+            <Link href="/dashboard" style={{ backgroundColor: "#ef4444" }} className="inline-flex items-center gap-1.5 px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-semibold rounded-lg transition-colors shadow-sm">
               Open Dashboard <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
