@@ -42,7 +42,7 @@ export default function Sidebar({ collapsed, onToggle, mobileOpen, onCloseMobile
         {!collapsed && isFirst && (
           <a
             href="/dashboard"
-            style={{ backgroundColor: '#ef4444' }}
+            style={{ backgroundColor: '#ef4444', color: '#ffffff' }}
             className="ml-auto"
           >
             Open Dashboard
